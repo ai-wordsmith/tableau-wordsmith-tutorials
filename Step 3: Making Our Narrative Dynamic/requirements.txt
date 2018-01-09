@@ -1,0 +1,3 @@
+Flask==0.12.1
+requests==2.18.4
+git+ssh://github.com/ai-invent/tableau-data-python.git

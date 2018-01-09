@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wordsmith + Tableau Tutorial</title>
+        <!-- Use the Bootstrap CSS library to make laying out the HTML page easier -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- Import the Tableau JS API -->
+        <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.js"></script>
+        <!-- Use jQuery to make interacting with the HTML DOM easier -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- This is the helper lib available at https://github.com/ai-invent/tableau-helper -->
+        <script type="text/javascript" src="./static/js/tableauHelper.js"></script>
+        <!-- This is the library containing all of the custom JS we'll write for this app -->
+        <script type="text/javascript" src="./static/js/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Bootstrap layouts consist of 12 total columns. Here we will use 3
+                columns for our narrative (on the left) and 9 columns for our Tableau
+                visualization (on the right) -->
+                <div class="col-sm-3" id="wordsmithNarrative"></div>
+                <div class="col-sm-9" id="tableauViz"></div>
+            </div>
+        </div>
+    </body>
+</html>
